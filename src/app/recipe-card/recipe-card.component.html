@@ -1,0 +1,6 @@
+<div class="recipe-card">
+    <img [src]="recipe.image" alt="{{ recipe.name }}" />
+    <h2>{{ recipe.name }}</h2>
+    <p>Ingredients: {{ recipe.ingredients.join(', ') }}</p>
+    <button (click)="saveRecipe()">Save</button>
+</div>

@@ -1,0 +1,9 @@
+<div *ngIf="savedRecipes.length === 0">
+    <p>No saved recipes yet.</p>
+</div>
+<ul>
+    <li *ngFor="let recipe of savedRecipes">
+        {{ recipe.name }}
+        <button (click)="removeRecipe(recipe)">Remove</button>
+    </li>
+</ul>

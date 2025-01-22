@@ -1,0 +1,12 @@
+<header>
+  <h1>Tetromize Coding Challenge</h1>
+  <nav>
+    <a routerLink="/">Home</a>
+    <a routerLink="/my-recipes">My Recipes ({{ recipeService.getSavedRecipes().length }})</a>
+  </nav>
+</header>
+<main class="main">
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+</main>

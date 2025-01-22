@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Spaghetti Carbonara",
+        "ingredients": [
+            "Spaghetti",
+            "Eggs",
+            "Pecorino cheese",
+            "Guanciale",
+            "Black pepper"
+        ],
+        "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?ixlib=rb-4.0.3"
+    },
+    {
+        "id": 2,
+        "name": "Classic Margherita Pizza",
+        "ingredients": [
+            "Pizza dough",
+            "Tomatoes",
+            "Fresh mozzarella",
+            "Fresh basil",
+            "Olive oil"
+        ],
+        "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-4.0.3"
+    },
+    {
+        "id": 3,
+        "name": "Chicken Caesar Salad",
+        "ingredients": [
+            "Romaine lettuce",
+            "Grilled chicken",
+            "Parmesan cheese",
+            "Croutons",
+            "Caesar dressing"
+        ],
+        "image": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?ixlib=rb-4.0.3"
+    }
+]
